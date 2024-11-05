@@ -1,8 +1,5 @@
-version: "3.9"
-
 networks:
   native-histo:
-
 
 services:
   prometheus:
