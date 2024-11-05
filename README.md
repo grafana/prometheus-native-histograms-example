@@ -15,6 +15,11 @@ Just :
 docker compose up -d
 ```
 
+Grafana credentials:
+
+Username: `admin`
+Password: `password`
+
 Then you can visit prometheus here http://localhost:3000 and run promql query against the new histogram :
 ``` promql
 rpc_durations_native_histogram_seconds
