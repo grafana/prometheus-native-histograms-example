@@ -21,7 +21,7 @@ services:
       - native-histo
 
   grafana:
-    image: grafana/grafana:9.3.0
+    image: grafana/grafana:11.3.0
     environment:
       - GF_SECURITY_ADMIN_PASSWORD=password
       - GF_AUTH_ANONYMOUS_ENABLED=true
